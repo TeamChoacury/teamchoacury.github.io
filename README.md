@@ -1,2 +1,2 @@
-# website
-The website source code
+# Choacury's Website
+The source code for the Choacury website.
