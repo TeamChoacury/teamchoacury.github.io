@@ -10,3 +10,5 @@ The source code for the Choacury website. That will host stuff like the download
 - [ ] ISO Management
 - [ ] Blog Management (for updates)
 - [ ] Logs Management (Check who does what)
+- [ ] Package Management System (for the upcoming Package Manager)
+- [ ] System Update Management
