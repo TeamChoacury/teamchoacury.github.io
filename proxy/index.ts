@@ -4,6 +4,8 @@ import * as proxy from "express-http-proxy";
 
 const app = express.default();
 
+const config = require("./config.json");
+
 app.get("/api", proxy.default("http://localhost:90/"));
 
-app.listen(80, () => { console.log("Listening on port 80!"); });
+app.listen(config.port, () => { console.log(`Listening internally on port ${config.port}!`); });

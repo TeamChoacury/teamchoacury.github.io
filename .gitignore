@@ -130,4 +130,8 @@ dist
 .pnp.*
 
 # Website stuff
+proxy/build
 backend/build
+
+proxy/config.json
+backend/config.json
