@@ -4,8 +4,10 @@ import * as proxy from "express-http-proxy";
 
 const app = express.default();
 
-app.get("/", (req: Request, res: Response) => {
-    return res.jsonp({ message: "It works!" });
+// Base URL is /api
+
+app.get("/api", (req: Request, res: Response) => {
+    return res.jsonp({ message: "It works!", madeby: "Made with 👍 by MrBisquit" });
 });
 
-app.listen(80, () => { console.log("Listening on port 80!"); });
+app.listen(90, () => { console.log("Listening internally on port 90!"); });
