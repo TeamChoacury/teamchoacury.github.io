@@ -1,0 +1,15 @@
+module.exports = {
+    apps: [
+        {
+            name: "proxy",
+            script: "./start_proxy.sh",
+            watch: true,
+            ignore_watch: [
+                "node_modules",
+                "logs"
+            ],
+            instances: 2,
+            exec_mode: "cluster"
+        }
+    ]
+}
