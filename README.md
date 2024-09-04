@@ -5,7 +5,7 @@ Made with 👍 by MrBisquit
 
 ## Things needing to be done:
 ### Frontend:
-*to be expanded...*
+- [ ] Basic UI.
 ### Backend:
 - [ ] Database integration (using MongoDB)
 - [ ] User Account Support
