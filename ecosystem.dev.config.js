@@ -19,6 +19,14 @@ module.exports = {
                 "logs"
             ],
             exec_mode: "cluster"
+        },
+        {
+            name: "frontend",
+            script: "./start_frontend_dev.sh",
+            watch: true,
+            ignore_watch: [
+                "node_modules"
+            ]
         }
     ]
 }

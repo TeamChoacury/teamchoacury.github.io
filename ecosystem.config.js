@@ -21,6 +21,14 @@ module.exports = {
             ],
             instances: 2,
             exec_mode: "cluster"
+        },
+        {
+            name: "frontend",
+            script: "./start_frontend.sh",
+            watch: true,
+            ignore_watch: [
+                "node_modules"
+            ]
         }
     ]
 }
