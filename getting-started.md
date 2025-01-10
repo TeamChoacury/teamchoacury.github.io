@@ -5,6 +5,10 @@
 > Test it in a VM or manually start each of processes
 > Check out the [developing guide](/developing-guide.md) for more information on Windows
 
+> [!NOTE]
+> By default the proxy runs on port 80, the backend runs on port 90 and the frontend runs on port 100.
+> To change these values you will have to locate them in the scripts and configuration files and manually edit them.
+
 To host this website you will need the following dependencies:
 
 | Dependency | Install guide      |
