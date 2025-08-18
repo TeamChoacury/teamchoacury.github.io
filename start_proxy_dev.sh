@@ -1,1 +1,0 @@
-cd ./proxy && npm install && npm run dev
