@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome to Team Choacury","permalink":"/blog/welcome","unlisted":false,"date":"2025-08-19T09:31:06.000Z"}]}')}}]);
