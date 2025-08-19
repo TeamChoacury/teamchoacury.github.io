@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 9999
 title: Meet the team
 ---
 

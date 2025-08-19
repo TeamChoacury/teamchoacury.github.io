@@ -1,0 +1,88 @@
+---
+sidebar_position: 1
+title: Getting started
+---
+
+# Getting started with ChoacuryOS
+
+- [Getting started with ChoacuryOS](#getting-started-with-choacuryos)
+  - [Requirements](#requirements)
+    - [Windows](#windows)
+    - [Linux](#linux)
+    - [MacOS](#macos)
+    - [Other Operating Systems](#other-operating-systems)
+  - [Building](#building)
+  - [Testing on real hardware](#testing-on-real-hardware)
+  - [Development & Contributon](#development--contribution)
+  - [Links & Resources](#links--resources)
+
+## Requirements
+There are different requirements based on what platform you are on.
+The following are the base requirements to be able to run ChoacuryOS (Make sure your device or VM has these):
+
+| Name         | Minimum |
+| :----------- | :------ |
+| Base Memory  | 64 MB   |     
+| Video Memory | 9 MB    |     
+| Hard Disk    | 2 GB    |
+
+### Windows
+On Windows, you must have WSL installed, and know how to find the directory where ChoacuryOS is located.
+This can be done through the `/mnt` directory in your WSL instance, this is where you will find all of the drives
+on your Windows computer. If you have just downloaded and extracted it, it will probably be in
+`/mnt/c/users/username/downloads/choacuryos-main/`.
+
+If you are installing WSL, we recommend Ubuntu 24.04 LTS, as that is what we have used and have tested.
+
+When you are sure that you have WSL set up, you can continue on to the [Linux part of this guide](#linux), as it contains
+all of the information you will need for the next steps.
+
+### Linux
+**We recommend Ubuntu 24.04 LTS, as that is what we have used and have tested.**
+
+Run the `prereq.sh` script to install and set up all of the prerequisits.
+
+:::warning
+The compiler uses the x86_64 version of QEMU. If you don't use that version of QEMU, replace
+`qemu-system-x86_64` in the compiler shell script with your version of QEMU.
+:::
+
+### MacOS
+ಠ_ಠ We don't have an actual guide for MacOS (We've never built on it before), but instead,
+we recommend a Linux VM (**Ubuntu 24.04 LTS**), and then to follow the [Linux requirements](#linux).
+
+### Other Operating Systems
+This will vary heavily from system-to-system, but you will need to ensure your operating system has a
+version of GCC, NASM, Makefile, GRUB Multiboot, and (optionally) QEMU or any similar x84(-64) virtual
+machine software.
+
+## Building
+To build the latest version of ChoacuryOS, first make sure you have followed the above instructions.
+You must navigate to where ChoacuryOS is on your system. If you have not already downloaded **and extracted**
+it, you must do that now.
+
+Follow the instructions in the `how-to-build.txt` file.
+
+## Testing on real hardware
+:::note
+Support with ChoacuryOS on real hardware is pretty much finicky at the moment. Some issues you may have
+are: keyboard not working post-GRUB (especially with USB keyboards, since we currently lack a driver for them).
+:::
+
+**TO BE EXPANDED UPON**
+
+## Development & Contribution
+If you would like to help out, feel free to contribute to the project! (We have a Trello board but you will need to ask for access). You can also modify Choacury to your liking if you would to make your own OS! You may also join the [development server](https://discord.gg/qhgDWrzCvg) if you would like to.
+
+We also have a Figma board that you may ask to access in the Discord server mentioned above.
+
+You must:
+- Make sure that the name of commits make sense and reflect the changes it contains
+- Document your additions (We have a documentation repository) and add comments where needed
+
+You must not:
+- Remove any other code without asking first (Refactoring or cleaning up is okay).
+
+### Links & Resources
+
+**TO BE EXPANDED UPON**
