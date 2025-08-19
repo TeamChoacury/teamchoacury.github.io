@@ -1,25 +1,49 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+mrbisquit:
+  name: MrBisquit
+  description: I like to program stuff.
+  title: Developer
+  url: https://wtdawson.info
+  image_url: https://github.com/mrbisquit.png
   page: true
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
+    github: mrbisquit
+    newsletter: https://wtdawson.info
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+pineconium:
+  name: Pineconium
+  description: i exist
+  title: Head Developer
+  image_url: https://github.com/pineconium.png
+  page: true
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    github: pineconium
+
+bananymous:
+  name: Bananymous
+  description: 23 year old self taught programmer and a student. I am mostly interested in low level programming (mainly OS dev).
+  title: Developer
+  url: https://bananymous.com
+  image_url: https://github.com/bananymous.png
+  page: true
+  socials:
+    github: bananymous
+    newsletter: https://bananymous.com
+
+keiran-brooks:
+  name: Keiran
+  title: Developer
+  url: https://kerian.club
+  image_url: https://github.com/keiran-brooks.png
+  page: true
+  socials:
+    github: kerian-brooks
+    newsletter: https://kerian.club
+
+vuk5002:
+  name: VuleSuma
+  description: au
+  title: Developer (Our drivers guy)
+  image_url: https://github.com/vuk5002.png
+  page: true
+  socials:
+    github: vuk5002
