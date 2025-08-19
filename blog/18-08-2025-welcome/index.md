@@ -20,7 +20,7 @@ This website contains both our blog, and documentation. This website is mostly f
 our main project: ChoacuryOS. Our previous website was purely for ChoacuryOS, and lacked any
 blog.
 
-- [View documentation](/docs/team)
+- [View documentation](/docs/)
 - [View blog](/blog)
 
 ## Contributing to our projects
